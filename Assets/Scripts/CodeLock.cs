@@ -10,9 +10,17 @@ public class CodeLock : MonoBehaviour
     int codeLength;
 
     public string code = "";
+    public AudioClip clickSound;
+    public AudioClip RightSound;
+    public AudioClip WrongSound;
+
+
     public string attemptedCode;
 
+
     Animator animator;
+    AudioSource audioSource;
+
 
     public event Action Clear;
 
@@ -24,6 +32,7 @@ public class CodeLock : MonoBehaviour
 
         panel = GetComponentInChildren<Text>();
         animator = GetComponentInChildren<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Start is called before the first frame update
@@ -34,6 +43,8 @@ public class CodeLock : MonoBehaviour
     {
         if (placeInCode <= codeLength && value != "Keypad" && panel.text.Length == placeInCode)
         {
+            audioSource.PlayOneShot(clickSound);
+
             attemptedCode += value;
             panel.text = attemptedCode;
             placeInCode++;
@@ -51,11 +62,15 @@ public class CodeLock : MonoBehaviour
     {
         if (attemptedCode == code)
         {
+            audioSource.PlayOneShot(RightSound);
+
             Debug.Log("암호 해제");
             Clear();
         }
         else
         {
+            audioSource.PlayOneShot(WrongSound);
+
             Debug.Log("틀린 비밀번호입니다.");
             animator.SetBool("Wrong", true);
         }

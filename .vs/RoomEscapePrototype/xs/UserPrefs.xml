@@ -2,12 +2,11 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CodeLock.cs">
     <Files>
       <File FileName="Assets/Scripts/FullScreenSize.cs" Line="24" Column="2" />
-      <File FileName="Assets/Scripts/DoorController.cs" Line="21" Column="34" />
-      <File FileName="Assets/Scripts/KeypadManager.cs" Line="16" Column="7" />
+      <File FileName="Assets/Scripts/DoorController.cs" />
+      <File FileName="Assets/Scripts/KeypadManager.cs" />
       <File FileName="Assets/Scripts/CodeLock.cs" Line="49" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" Line="20" Column="1" />
-      <File FileName="Assets/Scripts/MediaBoard.cs" Line="25" Column="11" />
-      <File FileName="Assets/Scripts/DoorSwitch.cs" Line="22" Column="1" NotebookId="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" />
+      <File FileName="Assets/Scripts/MediaBoard.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
