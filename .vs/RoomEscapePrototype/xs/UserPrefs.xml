@@ -1,33 +1,31 @@
 ﻿<Properties StartupConfiguration="{EF543E82-A348-CB66-81DB-AF6500C6C5E0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/DoorController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CodeLock.cs">
     <Files>
       <File FileName="Assets/Scripts/FullScreenSize.cs" Line="24" Column="2" />
-      <File FileName="Assets/DoorController.cs" Line="15" Column="25" />
-      <File FileName="Assets/CodeLock.cs" Line="73" Column="1" />
-      <File FileName="Assets/KeypadManager.cs" Line="17" Column="6" />
-      <File FileName="Assets/GameManager.cs" Line="40" Column="3" />
+      <File FileName="Assets/Scripts/DoorController.cs" Line="21" Column="34" />
+      <File FileName="Assets/Scripts/KeypadManager.cs" Line="16" Column="7" />
+      <File FileName="Assets/Scripts/CodeLock.cs" Line="49" Column="1" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="20" Column="1" />
+      <File FileName="Assets/Scripts/MediaBoard.cs" Line="25" Column="11" />
+      <File FileName="Assets/Scripts/DoorSwitch.cs" Line="22" Column="1" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="RoomEscapePrototype" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
-              <Node name="DoorController.cs" selected="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="CodeLock.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="RoomEscapePrototype" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="eacb6fdd-759d-4def-9d18-f8237d520683" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f74e2f93-6e34-4c42-aa01-b706ad22b02c" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
