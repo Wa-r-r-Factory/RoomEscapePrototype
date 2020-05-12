@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/URPPresets/Scenes/SampleScene.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
+    path: Assets/Scences/RoomEscape.unity
+    guid: f827c41754d5d48d3b1105c90775e3b7
   m_configObjects: {}

@@ -1,12 +1,9 @@
 ﻿<Properties StartupConfiguration="{EF543E82-A348-CB66-81DB-AF6500C6C5E0}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CodeLock.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/itemDatabase.cs">
     <Files>
-      <File FileName="Assets/Scripts/FullScreenSize.cs" Line="24" Column="2" />
-      <File FileName="Assets/Scripts/DoorController.cs" />
-      <File FileName="Assets/Scripts/KeypadManager.cs" />
-      <File FileName="Assets/Scripts/CodeLock.cs" Line="49" Column="1" />
-      <File FileName="Assets/Scripts/GameManager.cs" />
-      <File FileName="Assets/Scripts/MediaBoard.cs" />
+      <File FileName="Assets/Scripts/Inventory.cs" Line="14" Column="37" />
+      <File FileName="Assets/Scripts/Item.cs" Line="8" Column="22" />
+      <File FileName="Assets/Scripts/itemDatabase.cs" Line="7" Column="48" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +11,7 @@
           <Node name="RoomEscapePrototype" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CodeLock.cs" selected="True" />
+                <Node name="itemDatabase.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -24,7 +21,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f74e2f93-6e34-4c42-aa01-b706ad22b02c" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f9eb306f-8cd2-49db-b0c2-635fd8c3f599" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
