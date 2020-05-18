@@ -9,17 +9,16 @@ public class CodeLock : MonoBehaviour
     int placeInCode;
     int codeLength;
 
-    public string code = "";
+    public string code = "";        // 설정된 비밀번호
+    private string attemptedCode;   // 입력중인 번ㅎ
+
     public AudioClip clickSound;
     public AudioClip RightSound;
     public AudioClip WrongSound;
 
 
-    public string attemptedCode;
-
-    Animator animator;
-    AudioSource audioSource;
-
+    Animator animator;              // 체크 결과를 알려주기 위한 애니매이션
+    AudioSource audioSource;        // 체크 결과를 알려주기 위한 사운드
 
     public event Action Clear;
 
@@ -41,6 +40,7 @@ public class CodeLock : MonoBehaviour
     public void SetValue(string value)
     {
         if (placeInCode <= codeLength && value != "Keypad" && panel.text.Length == placeInCode)
+            // 버튼 이외의 부분을 클릭하지 않았거나(즉, 버튼을 클릭했거
         {
             audioSource.PlayOneShot(clickSound);
 
