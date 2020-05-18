@@ -17,7 +17,6 @@ public class CodeLock : MonoBehaviour
 
     public string attemptedCode;
 
-
     Animator animator;
     AudioSource audioSource;
 

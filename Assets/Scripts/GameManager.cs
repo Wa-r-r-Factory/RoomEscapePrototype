@@ -11,14 +11,20 @@ public class GameManager : MonoBehaviour
     // 씬에는 단 하나의 게임 매니저만 존재할 수 있음
     public static GameManager instance; // 싱글턴을 할당할 전역 변수
 
-    public CinemachineVirtualCamera[] views;
-
     public bool isGameover = true; // 게임 중인지를 나타내는 변수
 
     public GameObject WelcomeUI; // 타이틀 UI
-    public GameObject Level; // 레벨 구성
+    public Item item;
 
-    public DoorController door;
+    private Inventory inventory;
+
+    [SerializeField] private UI_Inventory uiInventory;
+
+
+    public CinemachineVirtualCamera[] views;
+
+
+
 
     private void Awake()
     {
@@ -33,15 +39,17 @@ public class GameManager : MonoBehaviour
         }
 
         isGameover = true;
-        Level.SetActive(false);
         WelcomeUI.SetActive(true);
+
+        inventory = new Inventory();
+        uiInventory.SetInventory(inventory);
+
+        //ItemWorld.SpawnItemWorld(new Vector3(0.543f, 0.876f, 4f), new Item{itemType = Item.ItemType.Puzzle, amount = 1 });
     }
 
     public void OnGameStart()
     {
         isGameover = false;
-        Level.SetActive(true);
-
         GameStart();
     }
 

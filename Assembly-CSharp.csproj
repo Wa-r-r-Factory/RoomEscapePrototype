@@ -63,18 +63,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ButtonController.cs" />
-    <Compile Include="Assets\Scripts\CodeLock.cs" />
-    <Compile Include="Assets\Scripts\DoorController.cs" />
-    <Compile Include="Assets\Scripts\DoorSwitch.cs" />
+    <Compile Include="Assets\Scripts\DoorNcodeLock\ButtonController.cs" />
+    <Compile Include="Assets\Scripts\DoorNcodeLock\CodeLock.cs" />
+    <Compile Include="Assets\Scripts\DoorNcodeLock\DoorController.cs" />
+    <Compile Include="Assets\Scripts\DoorNcodeLock\DoorSwitch.cs" />
+    <Compile Include="Assets\Scripts\DoorNcodeLock\KeypadManager.cs" />
     <Compile Include="Assets\Scripts\FullScreenSize.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Inventory.cs" />
-    <Compile Include="Assets\Scripts\Item.cs" />
-    <Compile Include="Assets\Scripts\KeypadManager.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\Inventory.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\Item.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\ItemAssets.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\ItemWorld.cs" />
+    <Compile Include="Assets\Scripts\ItemSystem\UI_Inventory.cs" />
     <Compile Include="Assets\Scripts\MediaBoard.cs" />
-    <Compile Include="Assets\Scripts\WallController.cs" />
-    <Compile Include="Assets\Scripts\itemDatabase.cs" />
     <Compile Include="Assets\URPPresets\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\URPPresets\TutorialInfo\Scripts\Readme.cs" />
     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
@@ -136,6 +137,9 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
       <HintPath>/Users/jun/Documents/UnityProjects/RoomEscapePrototype/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>/Users/jun/Documents/UnityProjects/RoomEscapePrototype/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
       <HintPath>/Users/jun/Documents/UnityProjects/RoomEscapePrototype/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>

@@ -5,9 +5,7 @@ using UnityEngine;
 
 public class DoorSwitch : MonoBehaviour
 {
-    public event Action OpenIt;
-
-    public GameObject openSwich;
+    public event Action Clicked;
 
     void Update()
     {
@@ -18,8 +16,9 @@ public class DoorSwitch : MonoBehaviour
 
             if(Physics.Raycast(ray, out hit, 10))
             {
-                if (hit.transform.gameObject.tag == "switch"){
-                    OpenIt();
+                if (hit.transform.gameObject == gameObject)
+                {
+                    Clicked();
                 }
             }
         }
